@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <div class="main-body">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">
+      Thank you for taking the time to help us improve the platform
+      </p>
+      <div class="form">
+        <form id="survey-form">
+          <div class="personal">
+            <label for="name" id="name-label"> Name: <input id="name" type="text" placeholder="Enter Your Full Name" required /></label>
+            <label for="email" id="email-label"> Email: <input id="email" type="email" placeholder="Enter Your Email Id" required /> </label>
+          </div>
+          <section class="survey">
+            <label for="number" id="number-label"> What rating would you give to our platform ? <input id="number" type="number" max="10" min="1" placeholder="Rating between 1 to 10 " /> </label>
+            <section class="dropdown">
+              <label for="dropdown">What is the thing you like about us most ?
+                <select id="dropdown" name="dropdown">
+                  <option value="">Select One</option>
+                  <option value="ad-free">Advertisement free platform</option>
+                  <option value="variety">Variety to choose from</option>
+                  <option value="low-cost">low cost of subscription</option>
+                </select>
+              </label>
+            </section>
+            <section class='radiobutton'>          
+              <p>Which feature should we add first ?</p>
+              <label for="1"><input id="1" name="radio" type="radio" checked="true" value="1" />Separate section for kids</label>
+              <label for="2"><input id="2" name="radio" type="radio" value="2" />More podcast and videos</label>
+            </section>
+            <section class="checkboxes">
+              <p>Which fields you like the most<span> (check all that apply) </span> ? </p>
+              <label for='sci'><input id="sci" value="science" type="checkbox" />Science and Technology</label>
+              <label for='fic'><input id="fic" value="fiction" type="checkbox" />Fiction</label>
+              <label for='astro'><input id="astro" value="astronomy" type="checkbox" />Astronomy</label>
+              <label for='busi'><input id="busi" value="business" type="checkbox" />Business and Corporate</label>
+              <label for='affairs'><input id="affairs" value="affairs" type="checkbox" />Current Affairs and General Knowledge</label>
+            </section>
+            <section class="comment">
+              <label for="cmnt">Your Comment About Us
+                <textarea id="cmnt" rows="5" cols="50" placeholder="I will share to my friends" ></textarea>
+              </label>
+            </section>
+            <input type="submit" id="submit" value="Submit" />
+          </submit>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

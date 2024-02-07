@@ -1,0 +1,63 @@
+body{
+  background: linear-gradient(180deg,#064521 0%,#03823a 0%,#0d7038 60%,#025425 100%);
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+.main-body{
+  background-color:rgba(3, 71, 33, 0.5);
+  max-width:700px;
+  margin: 60px auto;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+p,label,input{
+  font-size: 20px;
+}
+
+section{
+  margin: 80px auto;
+}
+
+label{
+  display: block;
+  text-align:center;
+  margin: 40px auto;
+  height: 18px;
+}
+
+.checkboxes label,.radiobutton label, .radiobutton p, .checkboxes p{
+  margin: 15px auto;
+}
+
+.checkboxes label{
+  text-align: left;
+}
+
+.checkboxes{
+  width:70%;
+}
+
+span{
+  font-size: 14px;
+}
+
+textarea{
+  display: block;
+  margin: 0 auto;
+}
+
+input[type='submit']{
+  display: block;
+  margin: -40 auto;
+  margin-top: 150px;
+  width: 40%;
+}
+
+select{
+  width:50%;
+  font-size: 20px;
+}
